@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Friends
+
+  for user in results
+    div
+      p= user.full_name
+      p= user.location
+      button(onclick="move('" + user.id + "')") Say hi!
+    br
+
+  script.
+    function move(userId) {
+      window.location.href = `/users/${userId}`
+    }
+

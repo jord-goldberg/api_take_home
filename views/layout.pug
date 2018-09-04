@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    form(method='GET' action='/users')
+      div.form-group
+        input#name.form-control(type='text', placeholder='Search by first name' name='first_name')
+        button.btn.btn-primary(type='submit') Search
+    block content

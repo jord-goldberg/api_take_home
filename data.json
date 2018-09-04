@@ -1,0 +1,32 @@
+[
+  {
+    "first_name": "fred",
+    "last_name": "flintstone",
+    "location": "bedrock"
+  },
+  {
+    "first_name": "fred",
+    "last_name": "rogers",
+    "location": "land of make-believe"
+  },
+  {
+    "first_name": "alex",
+    "last_name": "trebek",
+    "location": "a dinner-time TV set"
+  },
+  {
+    "first_name": "guy",
+    "last_name": "fieri",
+    "location": "flavor town"
+  },
+  {
+    "first_name": "fred",
+    "last_name": "savage",
+    "location": "wonderyears"
+  },
+  {
+    "first_name": "naruto",
+    "last_name": "uzumaki",
+    "location": "konohagakure"
+  }
+]
